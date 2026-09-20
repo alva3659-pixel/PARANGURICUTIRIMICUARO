@@ -1,0 +1,79 @@
+<html>
+    <head>
+<title>FIGURILLAS </title>
+<link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+
+
+<div class="resultado-container">
+            <H3>ACCIONES</H3>
+ <button onclick="limpiar()" class="boton-limpiar">LIMPIAR</button>
+ <a href="index.html">
+    <button  class="boton-atras">REGRESAR</button>
+</a>
+        </div>
+
+
+        
+
+<div id="bobesponja" class="sponge">
+    <h4>CUADRADO </h4>
+    <LABEL>Lado</LABEL>
+    <input type="number" placeholder="IngreseLado" id="laredoc">
+    <button onclick="calcularcuadrado()" class="boton-calcular"> CALCULAR</button>
+   
+ </div>
+
+
+
+ <div id="patricio" class="patricio">
+<h4>TRIANGULO</h4>
+<label >BASE</label>
+<input type="number" id="baset" placeholder="Inserte Base Triangulo">
+<label >ALTURA</label>
+<input type="number" id="alturat" placeholder="Inserte la Altura">
+<button onclick="calcularTriangulo()" class="boton-calcular"> CALCULAR</button>
+
+ </div>
+
+ 
+ <div id="DONCANGREJO" class="cangrejo">
+    <h4>RECTANGULO </h4>
+    <LABEL>Altura</LABEL>
+    <input type="number" placeholder="Ingrese altura" id="alturarec">
+    <label >Base</label>
+    <input type="number" id="baserect" placeholder="ingresar base de Rectangulo">
+    <button onclick="calcularrectangulo()" class="boton-calcular"> CALCULAR</button>
+    
+ </div>
+
+
+<div id="GARY" class="Garys">
+    <h4>CIRCULO </h4>
+    <LABEL>RADIO</LABEL>
+    <input type="number" placeholder="Ingrese radio" id="radio">
+    <button onclick="calcularcirculo()" class="boton-calcular"> CALCULAR</button>
+    
+ </div>
+
+
+ 
+         
+ 
+ <div class="resultado-container">
+            <H3>RESULTADO</H3>
+             <div id="resultado" class="resultado" >
+             </div>
+             <img src="alien.gif" alt="Imagen GIF" class="gif2">
+ </div>
+
+
+
+
+        </div> 
+       
+        <script src="script.js"></script>
+
+    </body>
+</html>

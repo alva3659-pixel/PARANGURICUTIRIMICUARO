@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+
+<div class="resultado-container">
+            <H3>ACCIONES</H3>
+ <button onclick="limpiar()" class="boton-limpiar">LIMPIAR</button>
+ <a href="index.html">
+    <button  class="boton-atras">REGRESAR</button>
+</a>
+        </div>
+
+
+
+    <div class="caja">
+        <h3>CALCULAR IDM</h3>
+        <label >NOMBRE:</label><br>
+        <input type="text" placeholder="inserte el nombre " id="names" required><br>
+        <label  > APELLIDOS:</label><br>
+        <input type="text" placeholder="inserte los apellidos " id="apell" required><br>
+        <label >SEXO:</label><br>
+        <input type="text" placeholder="inserte su sexo" id="sex" required> <br>
+        <label >ALTURA</label><br>
+        <input type="number" placeholder="inserte su altura" id="altura" required><br>
+        <label >PESO</label><br>
+        <input type="number" placeholder="inserte su peso" id="peso" required><br>
+ 
+    </div>
+    <div>
+ <button type="submit" onclick="calcularidm()" class="boton-calcular"> CALCULAR </button>
+    </div>
+
+
+    <div class="caja-resultado-idm">
+        <h3>RESULTADO IDM</h3>
+        <div id="resultado" >IDM</div>
+        <img src="alien.gif" alt="Imagen GIF" class="gif2">
+    </div>
+   
+
+<script src="idmca.js"></script>
+</body>
+</html>
+
